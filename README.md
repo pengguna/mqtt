@@ -19,3 +19,5 @@ can verify publish all g
 
 still need to add auth, grafana and some sort of restart tolerance.
 
+
+can probably be lazy and create some tempcontrol.service in /lib/systemd/system ?
