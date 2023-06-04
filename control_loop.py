@@ -19,7 +19,7 @@ class MqttClient:
         #client.on_publish = self.on_publish
 
         client.username_pw_set("heat_monitor", "rawrxd")
-        client.connect("192.168.0.36", 1883)
+        client.connect("0.0.0.0", 1883)
 
         self.client = client
 

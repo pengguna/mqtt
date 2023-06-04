@@ -3,6 +3,7 @@
 Shitty setup for some fermentation control
 
     sudo apt install mosquitto mosquitto-clients
+    pip3 install paho-mqtt
 
 
 modify config (check local with sudo systemctl status mosquitto) to include
@@ -17,3 +18,4 @@ can verify publish all g
 
 
 still need to add auth, grafana and some sort of restart tolerance.
+
